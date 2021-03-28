@@ -9,8 +9,6 @@ function creareDir(dir){
         fs.mkdirSync(dir);
     }
 }
-
-
 module.exports = {
     request,
     cheerio,
